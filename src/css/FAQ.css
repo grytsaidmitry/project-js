@@ -8,7 +8,7 @@
 #faq .faq-accordion .ac-content {
   margin: 0;
   padding: 0;
-} /* видалили стандартні відступи бібліотеки */
+}
 
 #faq .faq-title {
   font-family: 'Open Sans', sans-serif;
@@ -26,7 +26,7 @@
 #faq .faq-accordion {
   display: flex;
   flex-direction: column;
-  gap: 16px; /* відстань між секціями акордеону */
+  gap: 16px;
 }
 
 /* =========================
@@ -136,10 +136,6 @@
 ========================= */
 /* ---------- TABLET: from 768px ---------- */
 @media (min-width: 768px) {
-  /* .faq-wrapper {
-    max-width: 864px;
-    padding: 0 32px;
-  } */
   .mobile-br {
     display: none;
   }
@@ -158,10 +154,6 @@
 
 /* ---------- DESKTOP: from 1440px ---------- */
 @media (min-width: 1440px) {
-  /* .faq-wrapper {
-    max-width: 1024px;
-    padding: 0 32px;
-  } */
   .title-wrapper {
     max-width: 768px;
     margin: 0 auto;
