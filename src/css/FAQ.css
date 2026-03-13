@@ -102,12 +102,10 @@
   padding: 0 24px 24px;
   font-size: 14px;
   line-height: 1.5;
-  /* letter-spacing: -0.01em; */
 }
 
 #faq .faq-accordion .ac-content p:not(:last-child) {
   margin-bottom: 16px;
-  /* 16px */
 }
 
 /* =========================
