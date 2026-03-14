@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
     collapse: true,
   });
 
-  // Функція оновлення іконок
   function updateIcons() {
     document.querySelectorAll('.faq-accordion .ac').forEach(item => {
       const icon = item.querySelector('.faq-icon use');
@@ -18,22 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
       } else {
         icon.setAttribute('href', `${sprite}#icon-add`);
       }
-      /*
-      if (item.classList.contains('is-active')) {
-        icon.setAttribute('href', './img/sprite.svg#icon-close');
-      } else {
-        icon.setAttribute('href', './img/sprite.svg#icon-add');
-      } */
     });
   }
 
-  // Після кожного кліку на будь-яку секцію
   document.querySelectorAll('.faq-accordion .ac').forEach(item => {
     item.addEventListener('click', () => {
-      setTimeout(updateIcons, 50); // невелика пауза, щоб Accordion.js встиг змінити класи
+      setTimeout(updateIcons, 50);
     });
   });
 
-  // Початкове оновлення іконок
   updateIcons();
 });
