@@ -1,0 +1,35 @@
+{
+  "name": "project-js",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/project-js/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "postcss": "^8.4.41",
+    "postcss-sort-media-queries": "^5.2.0",
+    "vite": "^5.4.21"
+  },
+  "author": "Dmytro Hrytsai",
+  "license": "ISC",
+  "dependencies": {
+    "accordion-js": "^3.4.1",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  },
+  "description": "This project was created by a student during the JavaScript learning program at the GoIT course.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grytsaidmitry/project-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/grytsaidmitry/project-js/issues"
+  },
+  "homepage": "https://github.com/grytsaidmitry/project-js#readme"
+}
