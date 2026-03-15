@@ -14,7 +14,7 @@
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^5.4.21"
   },
-  "author": "Dmytro Hrytsai",
+  "author": "Dmytro Grytsai",
   "license": "ISC",
   "dependencies": {
     "accordion-js": "^3.4.1",
